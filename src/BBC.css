@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.divBox {
+  /* border: solid blue 3px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1300px
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.border {
+  /* border: solid red 3px; */
+  display:flex;
+  flex-direction: column;
+  width: 420px;
+  height: 420px
+}

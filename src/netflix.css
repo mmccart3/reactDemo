@@ -1,0 +1,37 @@
+@font-face {
+    font-family: myfont;
+    src: url("../src/fonts/NetflixSansRegular.ttf") format("truetype");
+}
+
+.App {
+  text-align: left;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-family:  myfont;
+}
+
+.netflixLogo{
+    color:
+}
+
+.divBox {
+  /* border: solid blue 3px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1290px
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.border {
+  /* border: solid red 3px; */
+  display:flex;
+  flex-direction: column;
+  width: 250px;
+  height: 480px
+}
+
+.border:hover {
+    transform: scale(1.2);
+  }
